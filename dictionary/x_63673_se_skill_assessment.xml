@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill Assessment" max_length="40" name="x_63673_se_skill_assessment" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" dependent="skill" dependent_on_field="skill" label="Product line" max_length="32" name="product_line" reference="x_63673_se_product_line" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element display="true" label="Skill" mandatory="true" max_length="32" name="skill" reference="x_63673_se_skill" type="reference"/>
+        <element label="User ID" max_length="32" name="user_id" reference="x_63673_se_profile" type="reference"/>
+        <index name="index">
+            <element name="product_line"/>
+        </index>
+        <index name="index2">
+            <element name="user_id"/>
+        </index>
+        <index name="index3">
+            <element name="skill"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Certificate" max_length="40" name="x_63673_se_certificate" type="collection">
+        <element display="true" label="Certificate name" mandatory="true" max_length="150" name="certificate_name" type="string" unique="true"/>
+        <element label="Product line" max_length="32" name="product_line" reference="x_63673_se_product_line" type="reference"/>
+        <index name="index">
+            <element name="product_line"/>
+        </index>
+        <index name="index2">
+            <element name="certificate_name"/>
+        </index>
+    </element>
+</database>

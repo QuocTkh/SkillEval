@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Profile" max_length="40" name="x_63673_se_profile" type="collection">
+        <element display="true" label="User ID" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference" unique="true"/>
+        <element label="Fullname" max_length="100" name="fullname" type="string"/>
+        <element label="Other Roles" max_length="4000" name="other_roles" type="string"/>
+        <element label="Primary Role" max_length="100" name="primary_role" type="string"/>
+        <element label="Secondary Role" max_length="100" name="secondary_role" type="string"/>
+        <element label="Shortname" max_length="40" name="shortname" type="string"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
