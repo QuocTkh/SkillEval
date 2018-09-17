@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="proficiency_level" table="x_63673_se_skill_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Conceptual/Trained</label>
+            <language>en</language>
+            <name>x_63673_se_skill_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-17 04:08:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4af53a9adbe0230040fda455ca9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-17 04:08:54</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Experienced</label>
+            <language>en</language>
+            <name>x_63673_se_skill_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-17 04:09:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86267656dbe0230040fda455ca9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-17 04:09:44</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Expert</label>
+            <language>en</language>
+            <name>x_63673_se_skill_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-17 04:09:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9367656dbe0230040fda455ca9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-17 04:09:58</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Guru</label>
+            <language>en</language>
+            <name>x_63673_se_skill_assessment</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-17 04:10:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2856329adbe0230040fda455ca9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-17 04:10:26</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>proficiency_level</element>
+            <name>x_63673_se_skill_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-17 04:05:05</sys_created_on>
+            <sys_id>4615b656dbe0230040fda455ca96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>proficiency_level</sys_name>
+            <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
+            <sys_update_name>sys_choice_x_63673_se_skill_assessment_proficiency_level</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-17 04:05:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

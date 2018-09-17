@@ -3,6 +3,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Product line" mandatory="true" max_length="32" name="product_line" reference="x_63673_se_product_line" type="reference"/>
         <element display="true" label="Skill description" mandatory="true" max_length="200" name="skill_description" type="string"/>
+        <element default="1" label="Weight" mandatory="true" max_length="40" name="weight" type="integer"/>
         <index name="index">
             <element name="product_line"/>
         </index>
