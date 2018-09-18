@@ -4,16 +4,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-14 08:12:11</sys_created_on>
         <sys_id>dce014a1db60230040fda455ca9619bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_63673_se_product_line.x_63673_se.SE_Admin</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_63673_se_product_line.x_63673_se.SE_User</sys_name>
         <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
         <sys_security_acl display_value="x_63673_se_product_line">94e014a1db60230040fda455ca9619bb</sys_security_acl>
         <sys_update_name>sys_security_acl_role_dce014a1db60230040fda455ca9619bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-14 08:12:11</sys_updated_on>
-        <sys_user_role display_value="x_63673_se.SE_Admin" name="x_63673_se.SE_Admin">c8fb80addb20230040fda455ca9619aa</sys_user_role>
+        <sys_updated_on>2018-09-17 14:46:30</sys_updated_on>
+        <sys_user_role display_value="x_63673_se.SE_User" name="x_63673_se.SE_User">c3bb00addb20230040fda455ca9619b1</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>
