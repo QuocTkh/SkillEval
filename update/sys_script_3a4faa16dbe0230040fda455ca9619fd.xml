@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
+        <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -28,18 +28,17 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
 	var gr = new GlideRecord('x_63673_se_skill_assessment');
 	gr.addQuery('skill', current.skill);
 	gr.addQuery('user_id', current.user_id);
+	gr.addQuery('submission', current.submission);
 	gr.query();
 	if (gr.next()){
 		if (gr.getUniqueValue() != current.getUniqueValue()){
-			gs.addErrorMessage('Skill and User ID combination already exists');
+			gs.addErrorMessage('Skill, User ID and Submission combination already exists');
 			current.setAbortAction(true);			
 		}
-	}
-	
+	}	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -47,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3a4faa16dbe0230040fda455ca9619fd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Enforce unique skill assessment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
@@ -55,7 +54,7 @@
         <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
         <sys_update_name>sys_script_3a4faa16dbe0230040fda455ca9619fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-17 03:41:14</sys_updated_on>
+        <sys_updated_on>2018-09-20 07:29:34</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

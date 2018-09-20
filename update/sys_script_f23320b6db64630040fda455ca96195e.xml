@@ -30,11 +30,11 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	//Abort if active assessment exists
 	var gr = new GlideRecord('x_63673_se_submission');
-	gr.addQuery('opened_by', current.opened_by);
+	gr.addQuery('assigned_to', current.assigned_to);
 	gr.addQuery('state', '!=', 'Completed');
 	gr.query();
 	if (gr.next()){
-		gs.addInfoMessage('Cannot create new Assessment. An assessment is in progress or has not been approved for user ' + current.opened_by.user_name);
+		gs.addInfoMessage('Cannot create new Assessment. An assessment is in progress or has not been approved for user ' + current.assigned_to.user_name);
 		current.setAbortAction(true);
 	}
 	else {
@@ -45,11 +45,11 @@
 			var grSkillAssess = new GlideRecord('x_63673_se_skill_assessment');
 			grSkillAssess.initialize();
 			grSkillAssess.submission = current.sys_id;
-			grSkillAssess.user_id = current.opened_by;
+			grSkillAssess.user_id = current.assigned_to;
 			grSkillAssess.skill = grSkill.sys_id;
 			grSkillAssess.insert();
 		}
-		gs.addInfoMessage('Thanks for your request to Skill Evaluation. Skill list has been generated for your self-assessment.');
+		gs.addInfoMessage('Skill list has been generated for user ' + current.assigned_to.user_name + '\'s self-assessment.');
 	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f23320b6db64630040fda455ca96195e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Generate skills for new assessment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
         <sys_update_name>sys_script_f23320b6db64630040fda455ca96195e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-18 10:09:54</sys_updated_on>
+        <sys_updated_on>2018-09-18 23:11:26</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
