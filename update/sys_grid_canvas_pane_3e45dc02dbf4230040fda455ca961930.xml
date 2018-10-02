@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">3d259402dbf4230040fda455ca96194c</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="">fe45dc02dbf4230040fda455ca96192d</portal_widget>
+        <posx>0</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-28 08:04:07</sys_created_on>
+        <sys_id>3e45dc02dbf4230040fda455ca961930</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>3d259402dbf4230040fda455ca96194c</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_3e45dc02dbf4230040fda455ca961930</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-01 04:14:26</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

@@ -14,7 +14,7 @@
         <mobile_title>SE Admin</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>100</order>
+        <order>200</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb58e761db60230040fda455ca961926</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>SE Admin</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
         <sys_update_name>sys_app_module_cb58e761db60230040fda455ca961926</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-17 22:40:10</sys_updated_on>
+        <sys_updated_on>2018-09-28 08:14:41</sys_updated_on>
         <timeline_page/>
         <title>SE Admin</title>
         <uncancelable>false</uncancelable>
