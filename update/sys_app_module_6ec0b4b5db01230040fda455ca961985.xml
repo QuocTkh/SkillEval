@@ -5,37 +5,41 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="sysapproval_approver">approver=javascript:getMyApprovals()^source_table=x_63673_se_submission^state=requested^EQ<item endquery="false" field="approver" goto="false" newquery="false" operator="=" or="false" value="javascript:getMyApprovals()"/>
+            <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_63673_se_submission"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>NEW</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Create Skill Assessment</mobile_title>
+        <mobile_title>My SE Approval</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_63673_se_submission</name>
-        <order>410</order>
+        <name>sysapproval_approver</name>
+        <order>120</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <roles>x_63673_se.SE_Admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-18 06:29:35</sys_created_on>
+        <sys_created_on>2018-10-10 01:44:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>112f50b2db64630040fda455ca961919</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Create New</sys_name>
+        <sys_id>6ec0b4b5db01230040fda455ca961985</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My SE Approvals</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
-        <sys_update_name>sys_app_module_112f50b2db64630040fda455ca961919</sys_update_name>
+        <sys_update_name>sys_app_module_6ec0b4b5db01230040fda455ca961985</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 23:07:22</sys_updated_on>
+        <sys_updated_on>2018-10-16 01:08:47</sys_updated_on>
         <timeline_page/>
-        <title>Create New</title>
+        <title>My SE Approvals</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>reject_se</action_name>
-        <active>true</active>
+        <active>false</active>
         <client>true</client>
         <client_script_v2/>
         <comments/>
@@ -52,7 +52,7 @@ function serverReject(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f5d34489dbf0630040fda455ca961971</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Reject</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
@@ -60,7 +60,7 @@ function serverReject(){
         <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
         <sys_update_name>sys_ui_action_f5d34489dbf0630040fda455ca961971</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-25 04:23:45</sys_updated_on>
+        <sys_updated_on>2018-10-10 01:51:58</sys_updated_on>
         <table>x_63673_se_submission</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

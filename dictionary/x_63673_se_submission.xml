@@ -10,7 +10,8 @@
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="1" value="Draft"/>
                 <element inactive_on_update="false" label="Submitted" sequence="2" value="Submitted"/>
-                <element inactive_on_update="false" label="Completed" sequence="3" value="Completed"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="3" value="Reviewed"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="Completed"/>
             </choice>
         </element>
         <element default="true" label="Valid" max_length="40" name="valid" read_only="true" type="boolean"/>

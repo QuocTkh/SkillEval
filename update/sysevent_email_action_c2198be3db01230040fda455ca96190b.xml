@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Skill Evaluation" name="Skill Evaluation">c79fb27adb70230040fda455ca96194c</category>
         <collection>x_63673_se_submission</collection>
-        <condition table="x_63673_se_submission">assigned_toISNOTEMPTY^state=Draft^stateVALCHANGES^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Draft"/>
+        <condition table="x_63673_se_submission">assigned_toISNOTEMPTY^state=Reviewed^stateVALCHANGES^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Reviewed"/>
             <item endquery="false" field="state" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
@@ -41,41 +41,42 @@
         <message/>
         <message_html><![CDATA[<div>Description: ${description}</div>
 <div>Assigned to: ${assigned_to}</div>
+<div>Opened by: ${opened_by}</div>
 <div>&nbsp;</div>
-<div>Please fill in your <strong>skills self-assessment</strong> and <strong>acquired certificates</strong>, then <strong>submit for review</strong>.</div>
+<div>Please review and approve to complete the skill evaluation for&nbsp;${assigned_to}</div>
 <div>&nbsp;</div>
 <div>Click here to view the record: ${URI_REF}</div>
 <div>&nbsp;</div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Email Skill Evaluation - assigned to</name>
+        <name>Email Skill Evaluation - reviewed </name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>assigned_to</recipient_fields>
-        <recipient_groups/>
+        <recipient_fields/>
+        <recipient_groups name="Skill Evaluation COE">eb2cbfd5dbc1230040fda455ca961917</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Skill Evaluation submission ${number} has been assigned to ${assigned_to}</subject>
+        <subject>Skill Evaluation ${number} has been submitted for approval</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-01 04:30:09</sys_created_on>
+        <sys_created_on>2018-10-15 23:16:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>687eb23adb70230040fda455ca9619db</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Email Skill Evaluation - assigned to</sys_name>
+        <sys_id>c2198be3db01230040fda455ca96190b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Email Skill Evaluation - reviewed </sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_63673_se">0aabc46ddb20230040fda455ca961964</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">0aabc46ddb20230040fda455ca961964</sys_scope>
-        <sys_update_name>sysevent_email_action_687eb23adb70230040fda455ca9619db</sys_update_name>
+        <sys_update_name>sysevent_email_action_c2198be3db01230040fda455ca96190b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-16 01:18:13</sys_updated_on>
+        <sys_updated_on>2018-10-16 01:18:41</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
